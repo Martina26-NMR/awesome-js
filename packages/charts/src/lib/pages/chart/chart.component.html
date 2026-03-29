@@ -11,7 +11,8 @@
         </div>
         <div #chartContainer class="chart__canvas" [style.display]="isLoading ? 'none' : 'block'">
           <div *ngIf="!isLoading && !chartInstance" class="chart__error">
-            <p>Chart not initialized. Please try again.</p>
+            <p>Chart not initialized.</p>
+            <p> Please try again.</p>
           </div>
         </div>
       </div>
